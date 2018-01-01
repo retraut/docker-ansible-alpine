@@ -3,7 +3,7 @@
 FROM alpine:3.6
 
 RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
-    apk --update add sudo                                         && \
+    apk --update add sudo openssh-client                          && \
     \
     \
     echo "===> Adding Python runtime..."  && \
