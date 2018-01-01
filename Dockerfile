@@ -1,4 +1,5 @@
 #AUTHOR - https://github.com/William-Yeh/docker-ansible
+
 FROM alpine:3.6
 
 RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
