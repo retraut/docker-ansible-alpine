@@ -18,6 +18,11 @@ RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     \
     \
     \
+     echo "===> Installing Zabbix python..."  && \
+    pip install zabbix-api                    && \
+    \
+    \
+    \
     echo "===> Removing package list..."  && \
     apk del build-dependencies            && \
     rm -rf /var/cache/apk/*               && \
